@@ -1,0 +1,239 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{investigate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f98cf4b767d17a1042f23046a2e5d9ae}{%
+           family={Lerner},
+           familyi={L\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \strng{fullhash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \strng{bibnamehash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \strng{authorbibnamehash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \strng{authornamehash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \strng{authorfullhash}{f98cf4b767d17a1042f23046a2e5d9ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Греция, Conference: the 13th Annual International Conference}
+      \field{note}{URL: \url{https://www.researchgate.net/publication/300657177_Analyzing_the_Use_of_Quick_Response_Codes_in_the_Wild}}
+      \field{title}{Analyzing the Use of Quick Response Codes in the Wild [Электронный ресурс]}
+      \field{year}{2015}
+    \endentry
+    \entry{barcode}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://rossertcentr.ru/shtrihkod-naznachenie-i-ispolzovanie} (дата обращения: 05.11.2022)}
+      \field{title}{Штрих код --- назначение и использование [Электронный ресурс]}
+    \endentry
+    \entry{scanner}{online}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://www.perco.ru/download/documentation/rus/Mertech_N200_P2D_ApplicGuide.pdf} (дата обращения: 15.11.2022)}
+      \field{title}{2D Barcode Reader User Guide [Электронный ресурс]}
+    \endentry
+    \entry{barcode-types}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a8c952dd2ed5c480d3c40ab4e87bd83f}{%
+           family={Н.},
+           familyi={Н\bibinitperiod},
+           given={Воронков\bibnamedelima А.},
+           giveni={В\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {russian}%
+      }
+      \strng{namehash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \strng{fullhash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \strng{bibnamehash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \strng{authorbibnamehash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \strng{authornamehash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \strng{authorfullhash}{a8c952dd2ed5c480d3c40ab4e87bd83f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Россия, Нижний Новгород, ННГАСУ}
+      \field{note}{URL: \url{https://bibl.nngasu.ru/electronicresources/uch-metod/logistic/5125.pdf}}
+      \field{title}{ТЕХНОЛОГИИ ШТРИХОВОГО КОДИРОВАНИЯ В ЛОГИСТИКЕ [Электронный ресурс]}
+      \field{year}{2011}
+    \endentry
+    \entry{code-128}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://docs.cntd.ru/document/1200105469} (дата обращения: 16.11.2022)}
+      \field{title}{Спецификация символики штрихового кода Code 128 [Электронный ресурс]}
+    \endentry
+    \entry{code-39}{online}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://www.iso.org/standard/43897.html} (дата обращения: 16.11.2022)}
+      \field{title}{Code 39 bar code symbology specification [Электронный ресурс]}
+    \endentry
+    \entry{upc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a139f4bf1532e57302ecde5e4f987ef0}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Afaq},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \strng{fullhash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \strng{bibnamehash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \strng{authorbibnamehash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \strng{authornamehash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \strng{authorfullhash}{a139f4bf1532e57302ecde5e4f987ef0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Баку, Baku Scientific Researches Conference}
+      \field{note}{URL: \url{https://www.researchgate.net/publication/351344418_Significance_of_the_UPC_Barcode_in_the_Food_Industry}}
+      \field{title}{Significance of the UPC Barcode in the Food Industry [Электронный ресурс]}
+      \field{year}{2021}
+    \endentry
+    \entry{ean-13}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://www.ean-13.ru/index.html} (дата обращения: 18.11.2022)}
+      \field{title}{Регистрация штриховых кодов EAN-13 [Электронный ресурс]}
+    \endentry
+    \entry{gs1-standart}{online}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://www.gs1.org/standards/barcodes} (дата обращения: 5.05.2022)}
+      \field{title}{GS1 --- Standards and services [Электронный ресурс]}
+    \endentry
+    \entry{2of5}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://docs.cntd.ru/document/1200158535} (дата обращения: 20.11.2022)}
+      \field{title}{Спецификация символики штрихового кода Interleaved 2 of 5 [Электронный ресурс]}
+    \endentry
+    \entry{pdf417}{online}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://www.iso.org/standard/65502.html} (дата обращения: 20.11.2022)}
+      \field{title}{PDF417 bar code symbology specification [Электронный ресурс]}
+    \endentry
+    \entry{data-matrix}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://docs.cntd.ru/document/1200071931} (дата обращения: 20.11.2022)}
+      \field{title}{Спецификация символики Data Matrix [Электронный ресурс]}
+    \endentry
+    \entry{ohio-error}{article}{}
+      \name{author}{1}{}{%
+        {{hash=213690912cf3aa35d99ace396d646372}{%
+           family={Fritz},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{213690912cf3aa35d99ace396d646372}
+      \strng{fullhash}{213690912cf3aa35d99ace396d646372}
+      \strng{bibnamehash}{213690912cf3aa35d99ace396d646372}
+      \strng{authorbibnamehash}{213690912cf3aa35d99ace396d646372}
+      \strng{authornamehash}{213690912cf3aa35d99ace396d646372}
+      \strng{authorfullhash}{213690912cf3aa35d99ace396d646372}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Огайо, Ohio University, Center for Automatic Identification}
+      \field{note}{URL: \url{https://www.idautomation.com/Assets/pdf-links/OSU-DataMatrix-PDF417.pdf}}
+      \field{title}{DATAMATRIX AND PDF417 DATA INTEGRITY TEST [Электронный ресурс]}
+      \field{year}{2020}
+    \endentry
+    \entry{aztec}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://docs.cntd.ru/document/1200079075} (дата обращения: 20.11.2022)}
+      \field{title}{Спецификация символики штрихового кода Aztec Code [Электронный ресурс]}
+    \endentry
+    \entry{qr}{online}{}
+      \list{language}{1}{%
+        {russian}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{URL: \url{https://docs.cntd.ru/document/1200121043} (дата обращения: 20.11.2022)}
+      \field{title}{Спецификация символики штрихового кода QR Code [Электронный ресурс]}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

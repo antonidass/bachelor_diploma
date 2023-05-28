@@ -1,0 +1,79 @@
+%% Creator: Inkscape 1.2.2 (b0a84865, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'trees_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{563.25075316bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.56724292)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{trees_svg-tex.pdf}}%
+    \put(0.45273043,0.52862779){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Узел решения\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{trees_svg-tex.pdf}}%
+    \put(0.77896168,0.54194335){\color[rgb]{1,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Корневой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{trees_svg-tex.pdf}}%
+    \put(0.22636588,0.30226324){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Узел решения\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{trees_svg-tex.pdf}}%
+    \put(0.71904165,0.30226324){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Узел решения\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{trees_svg-tex.pdf}}%
+    \put(0.86551283,0.16910763){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Узел решения\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{trees_svg-tex.pdf}}%
+    \put(0.11984139,0.15312896){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Листовой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{trees_svg-tex.pdf}}%
+    \put(0.33289037,0.15312896){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Листовой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{trees_svg-tex.pdf}}%
+    \put(0.58588604,0.16644452){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Листовой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{trees_svg-tex.pdf}}%
+    \put(0.93209064,0.0332889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Листовой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{trees_svg-tex.pdf}}%
+    \put(0.73235722,0.0332889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Листовой узел\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{trees_svg-tex.pdf}}%
+    \put(0.0466058,0.31557881){\color[rgb]{1,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Поддерево\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

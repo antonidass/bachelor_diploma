@@ -1,0 +1,22 @@
+\contentsline {chapter}{ВВЕДЕНИЕ}{4}{chapter*.1}%
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Технологический раздел}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Постановка задачи}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Требования к разрабатываемому методу}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Требования к разрабатываемому программному комплексу}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Набор данных CICIDS2017}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Структура разрабатываемого программного комплекса}{8}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Структура многослойной нейронной сети}{8}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Средства реализации программного комплекса}{10}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Выбор языка программирования}{10}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Используемые библиотеки}{10}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Минимальные требования к вычислительной системе}{11}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Формат входных данных}{11}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Формат выходных данных}{11}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Структура разработанного ПО}{11}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Пользовательский интерфейс}{12}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Зависимость точности и потерь модели от количества эпох}{15}{section.1.13}%
+\contentsline {section}{\numberline {1.14}Зависимость точности модели от класса сетевой атаки и количества слоев}{17}{section.1.14}%
+\contentsline {section}{\numberline {1.15}Оценка разработанного программного обеспечения}{19}{section.1.15}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{20}{chapter*.14}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ А}{21}{chapter*.14}%

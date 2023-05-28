@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Распознавание сетевых атак</string>
+  </property>
+  <widget class="QPushButton" name="choiceFileButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выбрать файл</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="detectButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Обнаружить сетевые атаки</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>30</y>
+     <width>671</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <column>
+    <property name="text">
+     <string>Предполагаемая атака</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Вероятность</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Атака</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Продолжительность потока</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Порт источника</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Порт назначения</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID протокола</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Всего пакетов (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Всего пакетов (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Минимальный размер пакета (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Минимальный размер пакета (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Максимальный размер пакета (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Максимальный размер пакета (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Средний размер пакета (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Средний размер пакета (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Стандартное отклонение пакета (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Стандартное отклонение пакета (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Минимальное время между двумя пакетами (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Минимальное время между двумя пакетами (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Среднее время между двумя пакетами (FWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Среднее время между двумя пакетами (BWD)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Количество пакетов с SYN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Количество пакетов с FIN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Количество пакетов с ACK</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Количество пакетов с CWE</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="histButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Построить гистограмму</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="allLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Всего записей: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attackLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Всего атак: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attackRecLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Всего атак распознано: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accuracyLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Точность распознавания:</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="allInput">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>200</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="attackInput">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>250</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="attackRecInput">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="accuracyInput">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>350</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
